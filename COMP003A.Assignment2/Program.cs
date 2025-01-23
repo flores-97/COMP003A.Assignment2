@@ -16,22 +16,22 @@ namespace COMP003A.Assignment2
             Console.WriteLine("*****************************************************");
             Console.WriteLine("Welcome to the Discount Calculator!");
             Console.WriteLine("*****************************************************");
-            Console.WriteLine("What is your first name?");
+            Console.Write("What is your first name? ");
             userFname = Console.ReadLine();
             
-            Console.WriteLine("What is your last name?");
+            Console.Write("What is your last name? ");
             UserLname = Console.ReadLine();
             //these two will read the first and last name of user. 
 
-            Console.WriteLine("What is your age?");
+            Console.Write("What is your age? ");
             userAge = int.Parse(Console.ReadLine());
             //This will read user's age
 
-            Console.WriteLine("What is the price of the item you're interested in?");
+            Console.Write("What is the price of the item you're interested in? ");
             productPrice = int.Parse(Console.ReadLine());
             //this will read the price of an said item
 
-            Console.WriteLine("Are you a student? (True/False)");
+            Console.Write("Are you a student? (True/False) ");
             isStudent = bool.Parse(Console.ReadLine());
             //will determine if user is student
             
